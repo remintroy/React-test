@@ -1,0 +1,20 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("/bg.jpg");
+  color: white;
+}
+.app-container {
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
