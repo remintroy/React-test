@@ -21,11 +21,11 @@ function Home() {
             url shortner
           </Text>
         </li>
-        <li onClick={() => navigate("/")}>
+        {/* <li onClick={() => navigate("/")}>
           <Text fw={"bold"} sx={{ textTransform: "capitalize" }}>
             weather app
           </Text>
-        </li>
+        </li> */}
         <li onClick={() => (window.location.href = "https://game.remin.tk")}>
           <Text fw={"bold"} sx={{ textTransform: "capitalize" }}>
             Fifteen puzzle
